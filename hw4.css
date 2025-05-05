@@ -1,0 +1,251 @@
+/*
+    Author: Kathia Graciano
+    Date Created: February 6, 2025
+    Date last edited: April 14, 2025
+    Version: 1.0
+    Description: CSS for hw 4
+*/
+header 
+{
+    font-family: optima, sans-serif;
+    background-color: #3f6f71;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+h1
+{
+    font-family: linotype didot, serif;
+    color: #44576d;
+    font-size: 50px;
+    text-align: center;
+}
+.title-border
+{ 
+    background-color: #1c4442; 
+    color: #dbeced;
+    border: 15px double #122021;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+}
+form 
+{
+    padding-bottom: 70px;
+}
+body 
+{
+    font-family: garamond, serif;
+    background-color: #e9f5fb;
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+}
+label
+{
+    margin-bottom: 5px;
+}
+input 
+{
+    font-family: garamond, serif;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+th
+{
+    height: 100%;
+    text-align: center;
+}
+.header-box 
+{
+    font-family: Georgia, serif;
+    background-color: #3f6f71;
+    border: 1px black solid;
+    color: #122021;
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+
+}
+main
+{
+    min-height: 100vh;
+    text-align: "center";
+}
+footer
+{
+    font-family: optima, sans-serif;
+    background-color: #3f6f71;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+p
+{
+    margin: 5px;
+    padding: 10px;
+}
+.state
+{ 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding: 5px;
+    width: 36%; 
+}
+#logo
+{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 140px;
+    height: auto;
+}
+#option1,#option2,#option3,#option4,#option5,#option6
+{
+    text-align: left;
+
+}
+#reset
+{
+    background-color: #1c4442;
+    color: white;
+    border: 1px solid #030303;
+    margin: left 20%;
+    padding: 10px;
+}
+#review 
+{
+    background-color: #1c4442;
+    color: white;
+    border: 1px solid #030303;
+    padding: 10px;
+}
+#validate 
+{
+    background-color: #1c4442;
+    color: white;
+    border: 1px solid #030303;
+    padding: 10px;
+    margin-top: 8%;
+    margin-left: 58%; 
+}
+#submit
+{
+    background-color: #cccccc; 
+    color: white;
+    border: 1px solid #030303;
+    margin-left: 5px;
+    padding: 11px;
+}
+#submit:disabled
+{
+    cursor: not-allowed; 
+}
+#ty
+{
+    margin-top: 50px;
+}
+.right-align
+{
+    text-align: right;
+}
+#alert-box
+{
+    background-color: #e42d5f;
+    z-index: 9999; 
+    display: none; 
+    position: fixed; 
+    border-radius: 5px;
+    border: 5px#871332 solid;
+    bottom: 30%; 
+    left: 30%; 
+    right: 30%;
+}
+.alert-content
+{
+    border-radius: 10px; 
+    margin: auto; 
+    margin-top: 10px;
+    padding: 20px; 
+}
+.alert-content h4
+{
+    color: white; 
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold; 
+    font-size: 14px; 
+    text-align: center; 
+    margin: 0; 
+}
+#close-alert
+{
+    background-color: #871332;
+    color: white; 
+    cursor: pointer; 
+    margin-top: 5px; 
+    margin-left: 80%; 
+}
+#errorList
+{
+    font-family: "Gill Sans", sans-serif;
+    color: white;
+    font-size: 13px;
+    white-space: nowrap; 
+}
+.form-group 
+{
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+    gap: 10px; 
+}
+.error /*CSS for error messages*/
+{
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    color: #e50727;
+    font-size: 10px;
+    white-space: nowrap; 
+}
+table.output, tr.output, td.output /*CSS for output table*/
+{
+    width: 30%;
+    background-color: #8faeaf;
+    padding: 10px;
+    border-spacing: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: lighter;
+    color: #023a3b;
+}
+td.outputdata /*CSS for output table data*/
+{
+    width: 20%;
+    background-color: white;
+    padding: 5px;
+    border-spacing: 5px;
+}
+.layout-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 8%; 
+    padding: 20px;
+}
+.iframe-container {
+    flex-shrink: 0;
+}
+.frame {
+    width: 250px;
+    height: 650px;
+    margin-top: 50%; 
+    border: 1px solid #ccc;
+}
